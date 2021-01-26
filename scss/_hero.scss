@@ -1,0 +1,42 @@
+.hero{
+    padding:280px 0;
+    text-align: center;
+    background: url("images/home-bg.jpg");
+    background-repeat: no-repeat;
+    background-position:top center ;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.hero-title{
+    color: white;
+    font-size: 62px;
+    font-family: $font-stack;
+    font-weight: bold;
+}
+.hero-slogan{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    color: $primary-color;
+    font-family: $font-stack;
+}
+.btn-hero{
+    background: white;
+    color: #444444;
+    font-family: $font-stack;
+    font-size:10px;
+    font-weight:bold;
+    letter-spacing: 2px;
+    padding:13px 22px;
+    border-radius: 100px;
+    border: 2px solid #cccccc;
+    &:hover{
+        background: transparent;
+        border-radius: 100px;
+        color: white;
+    }
+}
+.hero-content{
+    position: relative;
+    z-index: 10;
+}

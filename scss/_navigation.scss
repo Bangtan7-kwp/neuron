@@ -1,0 +1,41 @@
+.navigation{
+    padding:30px 0;
+}
+.logo{
+    font-size: 18px;
+    font-family: $font-stack;
+    font-weight: bold;
+    letter-spacing: 4px;
+    a{
+        color: #555555;
+        &:hover{ //& means that hover on a
+            text-decoration: none;
+        }
+    }
+}
+
+.links {
+    ul{
+        margin-bottom: 0;
+        li{
+            padding-right: 20px;
+            padding-left:20px;
+            &.active a{
+                color: $primary-color;
+            }
+            a{
+                color: #777777;
+                font-family: $font-stack;
+                font-size: 15px;
+                letter-spacing: 1px;
+                &:hover{
+                    color:$primary-color;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+  
+
+
+}

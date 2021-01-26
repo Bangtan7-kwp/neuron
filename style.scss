@@ -1,0 +1,11 @@
+$primary-color:#bfba55;
+$font-stack:'Merriweather',serif;
+
+@import 'scss/navigation';
+@import 'scss/hero';
+@import 'scss/articles';
+@import 'scss/footer';
+@import 'scss/general';
+@import 'scss/banner';
+@import 'bs/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');

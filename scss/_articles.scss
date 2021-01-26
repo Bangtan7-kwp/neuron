@@ -1,0 +1,53 @@
+.articles{
+    margin-top:100px;
+    margin-bottom: 100px;
+    hr{
+        margin:65px 0;
+    }
+}
+.btn-article{
+    font-family: $font-stack;
+    background: transparent;
+    color: #777777;
+    border: 1px solid #cccccc;
+    border-radius: 100px;
+    padding:10px 20px;
+    font-weight: bold;
+    padding:15px 22px;
+    &:hover{
+        background: $primary-color;
+        color:white;
+    }
+    &:focus{
+        outline:none;
+    }
+}
+.article-title{
+    font-family: $font-stack;
+    font-weight: bold;
+    font-size: 26px;
+    letter-spacing: 0.5px;
+    margin-top: 40px;
+    a{
+        color: #222222;
+    &:hover{
+        text-decoration: none;
+        color:$primary-color;
+    }
+    }
+}
+.img-author{
+    width:42px;
+}
+.article-meta{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    span{
+        margin:0 10px;
+        font-family: $font-stack;
+        color: #333333;
+    }
+}
+.article-body{
+    margin:30px 0;
+}
